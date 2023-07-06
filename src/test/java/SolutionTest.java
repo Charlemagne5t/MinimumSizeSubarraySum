@@ -32,4 +32,14 @@ public class SolutionTest {
         Assertions.assertEquals(expected, actual);
     }
 
+    @Test
+    public void minSubArrayLenTest4() {
+        int target = 11;
+        int[] nums = {1, 2, 3, 4, 5};
+        int expected = 3;
+        int actual = new Solution().minSubArrayLen(target, nums);
+
+        Assertions.assertEquals(expected, actual);
+    }
+
 }
